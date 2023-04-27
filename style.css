@@ -1,0 +1,57 @@
+body{
+  background-color: #25456F;
+}
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+h1{
+  font-size: 75px;
+    text-align:center;
+  color: #eed9c4;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  
+}
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  border: 7.5px solid black;
+}
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2{
+    text-align:center;
+  margin: 20px;
+  color: #fff0db;
+  font-size: 40px;
+}
+
+a{
+  text-align:center;
+  margin: 20px;
+  color: #fff0db;
+  font-size: 40px;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer{
+    display:flex;
+    justify-content:space-between;
+  font-size: 10px;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section{
+    border: 7.5px black solid;
+    margin:10px;
+  font-size: 20px;
+}
+
+p{
+  font-size: 30px;
+   text-align:center;
+  margin: 20px;
+  color: #faf0e6;
+}
